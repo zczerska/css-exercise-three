@@ -16,7 +16,7 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 15px 15px 15px;
+  padding: 10px 0px 15px 15px;
   position: fixed;
   width: 420px;
   background-color: #010001;
@@ -33,11 +33,13 @@ h3{
 }
 
 .restaurant-list {
-  padding-top: 45px;
-  display:block;
+  padding-top: 11%;
+  display:inline-block;
   }
 
 .location{
+  display: inline-block;
+  width: 100%;
   border-bottom: 1px solid #343334;
 }
 
@@ -46,16 +48,15 @@ h3{
 }
 
 .arrow{
-  margin-bottom: 20px;
-  margin-left: 380px;
-  margin-top: -55px;
+  float: right;
+  padding-top: 7%;
+  padding-right:5%;
 }
 
 .content{
-  padding: 15px 50px 25px 20px;
+  float: left;
+  padding-left: 5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   line-height: 1.2rem;
-}
-
-.arrow-left {
-
 }
